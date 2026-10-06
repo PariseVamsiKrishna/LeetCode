@@ -16,16 +16,12 @@ class MyQueue {
         }
     }
     
-    public int pop() {
-        if(st1.isEmpty())
-        return -1;
+    public int pop() {;
         return st1.pop();
     }
     
     public int peek() {
-        if(!st1.isEmpty())
         return st1.peek();
-        return -1;
     }
     
     public boolean empty() {
